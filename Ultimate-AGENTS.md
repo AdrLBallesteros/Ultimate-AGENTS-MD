@@ -49,4 +49,5 @@ Complete the requested task with the smallest complete change. These guidelines 
 - Use normal prose in persisted content, including documentation, comments, commits, issues, and pull requests. Do not compress it into chat shorthand.
 - Give brief progress updates at phase changes or blockers. Avoid narrating routine tool calls; provide any updates required by the host.
 - Use full sentences for questions, options, warnings, and confirmations where compression could create ambiguity.
-- Finish with the outcome, verification performed, and material limitations or risks. Omit irrelevant omissions and lists of hypothetical features not built.
+- When you notice related changes in the task's area that you did not make because they were not explicitly requested, list them briefly at the end and ask whether to apply them. Include only concrete items observed while working, such as the same bug in a sibling function or a related setting left unchanged. Do not block the task on these questions or propose speculative features.
+- Finish with the outcome, verification performed, material limitations or risks, and any related changes offered above. Omit irrelevant omissions and lists of hypothetical features not built.
